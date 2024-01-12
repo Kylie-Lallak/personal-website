@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+#navbar{
+    margin-top:28px;
+    margin-left:28px;
+
+}
+.nav{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    font-size: 28px;
+    padding:24px;
+    font-weight: bold;
+}
+
+#main-page > div {
+   
+    color:white;
+
+}
+
+#main-name{
+    font-size: 100px;
+    font-weight: 600;
+    margin-left:28px;
+    margin-top:115px;
+    font-family: 'Telex', sans-serif;
+}
+
+#main-desc{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 450px;
+    margin-left: 32px;
+
+}
+#main-page{
+    display: flex;
+}
+
+#main-image{
+    width:50%;
+    height:auto;
+    float:right;
+    margin-left:150px;
+}
