@@ -1,47 +1,236 @@
-body{
-    background-color: black;
-}
-#navbar{
-    margin-top:28px;
-    margin-left:28px;
 
-}
-.nav{
-    color:white;
-    font-family: 'Montserrat', sans-serif;
-    display: inline;
-    font-size: 28px;
-    padding:24px;
-    font-weight: bold;
-}
 
-#main-page > div {
+/* Normal desktop screen size */
+@media (min-width: 931px){
+    body{
+        background-color: black;
+    }
+    /*navbar container*/
+    #navbar{
+        display:flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        margin-left: 28px;
+        margin-top:22px;
+       
+    }
+    /* nav bar items*/
+    .nav-link{
+        color:white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        margin-right:48px;
+    }
+    a{
+        text-decoration: none;
+        color:white;
+        position: relative;
+    }
+
+    /* nav bar hover animation*/
+    .nav-link a:after{
+        content: "";
+        position: absolute;
+        background-color: #e5e900;
+        height:3px;
+        width:0%;
+        left:0;
+        bottom:-10px;
+        transition: 0.3s;
+    }
+    .nav-link a:hover{
+        width:100%;
+
+    }
+    .nav-link  a:hover:after{
+        width:100%;
+    }
+     
+    /* Container for main text and image*/
+    #main-page{
+        display: flex;
+    }
+    
+    /*turns all main text white*/
+    #main-page > div {
+       
+        color:white;
+    
+    }
+    
+    #main-name{
+        font-size: 100px;
+        font-weight: 600;
+        margin-left:28px;
+        margin-top:115px;
+        font-family: 'Telex', sans-serif;
+        width:100%;
+    }
+    
+    #main-desc{
+        font-family: 'Montserrat', sans-serif;
+       /* max-width: 450px;*/
+       max-width:60%;
+        margin-left: 32px;
+    
+    }
+    #contact-me-button{
+        font-family: 'Montserrat', sans-serif ;
+        margin-top: 32px;
+        text-align: center;
+        color:white;
+        width:200px;
+        padding:14px 20px 14px 20px;
+        background-color: black;
+        border:3px solid;
+        border-color: #e5e900;
+        font-weight: bold;
+        
+    }
+    #contact-me-button:hover{
+        
+        -webkit-transform: scale(1.1);
+        transform:scale(1.1);
+
+    }
    
-    color:white;
+    
+    #main-image{
+        width: 100%;
+        height:auto;
+        float:right;
+        margin-right:28px;
+      
+    }
+    
+
 
 }
 
-#main-name{
-    font-size: 100px;
-    font-weight: 600;
-    margin-left:28px;
-    margin-top:115px;
-    font-family: 'Telex', sans-serif;
-}
+/* smaller desktop size*/
+@media (max-width: 930px){
 
-#main-desc{
-    font-family: 'Montserrat', sans-serif;
-    max-width: 450px;
-    margin-left: 32px;
+    body{
+        background-color: black;
+    }
+    
+    
+    /*navbar container*/
+    #navbar{
+        display:flex;
+        flex-direction: row; 
+        justify-content:flex-start;
+        margin-left: 28px;
+        margin-top:22px;
+       
+    }
+    /* nav bar items*/
+    .nav-link{
+        color:white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        margin-right:48px;
+       
+    }
 
-}
-#main-page{
-    display: flex;
-}
+    a{
+        text-decoration: none;
+        color:white;
+    }
 
-#main-image{
-    width:50%;
-    height:auto;
-    float:right;
-    margin-left:150px;
+    a{
+        text-decoration: none;
+        color:white;
+        position: relative;
+    }
+
+    /* nav bar hover animation*/
+    .nav-link a:after{
+        content: "";
+        position: absolute;
+        background-color: #e5e900;
+        height:3px;
+        width:0%;
+        left:0;
+        bottom:-10px;
+        transition: 0.3s;
+    }
+    .nav-link a:hover{
+        width:100%;
+
+    }
+    .nav-link  a:hover:after{
+        width:100%;
+    }
+
+     /* main text and main image container*/
+     #main-page{
+        display: flex;
+        flex-direction:column;
+        
+    
+    }
+
+      /* turns all text in main body white*/
+      #main-page > div {
+       
+        color:white;
+    
+    }
+
+   
+    #main-image{
+    
+    
+        height:auto;
+        margin-left:28px;
+        margin-top:12px;
+        max-width: 70%;
+       
+    }
+
+    /* container for main name and main description*/
+    #main-text{
+        margin-left:28px;
+        color:white;
+    }
+
+    #main-name{
+        font-size: 100px;
+        font-weight: 600;
+        margin-left:28px;
+        margin-top:115px;
+        font-family: 'Telex', sans-serif;
+    }
+    
+    #main-desc{
+        font-family: 'Montserrat', sans-serif;
+        max-width: 450px;
+        margin-left: 32px;
+    
+    }
+
+    #contact-me-button{
+        font-family: 'Montserrat', sans-serif ;
+        margin-top: 32px;
+        text-align: center;
+        color:white;
+        width:200px;
+        padding:14px 20px 14px 20px;
+        background-color: black;
+        border:3px solid;
+        border-color: #e5e900;
+        font-weight: bold;
+        margin-bottom:18px;
+        
+    }
+    #contact-me-button:hover{
+        
+        -webkit-transform: scale(1.1);
+        transform:scale(1.1);
+
+    }
 }
