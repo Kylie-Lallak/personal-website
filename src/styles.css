@@ -319,6 +319,7 @@
     }
 }
 
+/* mobile screens*/
 @media (max-width:726px){
     body{
         background-color: black;
@@ -330,7 +331,7 @@
         justify-content:flex-start;
     
         margin-top:22px;
-        margin-left:22px;
+     
        
     }
     /* nav bar items*/

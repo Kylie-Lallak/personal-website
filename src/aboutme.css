@@ -22,7 +22,7 @@
         color:white;
     }
     #main-image{
-        max-width:50%;
+        max-width:60%;
         height:auto;
         border-radius: 35px;
         margin-left:28px;
@@ -44,6 +44,7 @@
         margin-right:48px;
        
         justify-content: space-between;
+        align-items: center;
     }
 
     /* main page two - intrest cards */
@@ -51,7 +52,7 @@
 
         border-radius: 25px;
         padding:28px;
-        margin-right:48px;
+        margin:22px auto 22px auto;
         color:white;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
@@ -59,20 +60,25 @@
         height:auto;
 
     }
+    .card:hover{
+        -webkit-transform: scale(1.1);
+        transform:scale(1.1);
+    }
     #card-one{
-        background:linear-gradient(90deg, #5a85bd, #2a456e)
+        background:linear-gradient(90deg, #5a92bd, #2e2493)
     }
     #card-two{
-        background:linear-gradient(90deg, #539e6f, #114971)
+        background:linear-gradient(90deg, #246864, #1d178a)
     }
     #card-three{
-        background:linear-gradient(90deg, #0046a2, #b761cf)
+        background:linear-gradient(90deg, #0046a2, #9e5db0)
     }
     .card-title{
         color:white;
         font-family: 'Telex', sans-serif;
-        font-size: 25px;
-        font-weight: bold;
+        font-size: 32px;
+        font-weight: 900;
+        padding: 10px;
     }
     .card-sub-head{
         font-family: 'Telex', sans-serif;
@@ -128,7 +134,8 @@
 
 }
 
-@media  (max-width: 930px){
+@media  (min-width:571px) and (max-width: 930px){
+    
     body{
         background-color: black;
     }
@@ -166,6 +173,7 @@
     #main-page-one{
         display:flex;
         flex-direction: column;
+        align-items: center;
  
     }
     #main-page-two{
@@ -174,6 +182,7 @@
         margin-right:48px;
        
        justify-content: space-evenly;
+       align-items: center;
     }
 
     /* main page two - intrest cards */
@@ -181,8 +190,7 @@
 
         border-radius: 25px;
         padding:28px;
-        margin-bottom: 28px;
-        margin-top:28px;
+        margin:22px auto 22px auto;
         color:white;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
@@ -190,20 +198,25 @@
         height:auto;
 
     }
+    .card:hover{
+        -webkit-transform: scale(1.1);
+        transform:scale(1.1);
+    }
     #card-one{
-        background:linear-gradient(90deg, #5a85bd, #2a456e)
+        background:linear-gradient(90deg, #5a92bd, #2e2493)
     }
     #card-two{
-        background:linear-gradient(90deg, #539e6f, #114971)
+        background:linear-gradient(90deg, #246864, #1d178a)
     }
     #card-three{
-        background:linear-gradient(90deg, #0046a2, #b761cf)
+        background:linear-gradient(90deg, #0046a2, #9e5db0)
     }
     .card-title{
         color:white;
         font-family: 'Telex', sans-serif;
-        font-size: 25px;
-        font-weight: bold;
+        font-size: 32px;
+        font-weight: 900;
+        padding: 10px;
     }
     .card-sub-head{
         font-family: 'Telex', sans-serif;
@@ -259,4 +272,144 @@
 
 
 }
+
+
+@media (max-width:570px){
+    body{
+        background-color: black;
+    }
+    #main-desc{
+        color:white;
+        font-family: 'Montserrat', sans-serif;
+        max-width:450px;
+        margin-left: 32px;
+        line-height: 2;
+        margin-top:20px;
+     
+    }
+    #main-title{
+        font-size: 70px;
+        font-weight: 600;
+        margin-left:28px;
+        margin-top:80px;
+        font-family: 'Telex', sans-serif;
+        width:100%;
+        color:white;
+    }
+    #main-image{
+        max-width:80%;
+        height:auto;
+        border-radius: 35px;
+        margin-left:28px;
+        margin-top:28px;
+    }
+
+    #main-page-container{
+        display:flex;
+        flex-direction: column;
+      
+    }
+    #main-page-one{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right:22px;
+ 
+    }
+    #main-page-two{
+        display:flex;
+        flex-direction: column;
+       
+       
+       justify-content: space-evenly;
+       align-items: center;
+       /*margin-left:45px;*/
+       margin:22px auto 22px auto;
+    }
+
+    /* main page two - intrest cards */
+    .card{
+
+        border-radius: 25px;
+        padding:28px;
+        margin-bottom: 28px;
+        margin-top:28px;
+        color:white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        max-width:85%;
+        height:auto;
+
+    }
+    .card:hover{
+        -webkit-transform: scale(1.1);
+        transform:scale(1.1);
+    }
+    #card-one{
+        background:linear-gradient(90deg, #5a92bd, #2e2493)
+    }
+    #card-two{
+        background:linear-gradient(90deg, #246864, #1d178a)
+    }
+    #card-three{
+        background:linear-gradient(90deg, #0046a2, #9e5db0)
+    }
+    .card-title{
+        color:white;
+        font-family: 'Telex', sans-serif;
+        font-size: 32px;
+        font-weight: 900;
+        padding: 10px;
+    }
+    .card-sub-head{
+        font-family: 'Telex', sans-serif;
+        font-size: 18px;
+        color:white;
+
+    }
+
+    #navbar{
+        display: flex;
+        flex-direction: row;
+        margin-top:22px;
+    }
+    /* nav bar items*/
+    .nav-link{
+        color:white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        margin-right:28px;
+    }
+    a{
+        text-decoration: none;
+        color:white;
+        position: relative;
+    }
+
+    /* nav bar hover animation*/
+    .nav-link a:after{
+        content: "";
+        position: absolute;
+        background-color: #e5e900;
+        height:3px;
+        width:0%;
+        left:0;
+        bottom:-10px;
+        transition: 0.3s;
+    }
+    .nav-link a:hover{
+        width:100%;
+
+    }
+    .nav-link  a:hover:after{
+        width:100%;
+    }
+
+
+
+
+
+}
+
 
