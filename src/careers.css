@@ -75,12 +75,7 @@
         line-height: 2;
         margin-top:20px;
         color:white;
-      
-    
     }
-
- 
-   
     
     #career-image{
         height: auto;
@@ -88,19 +83,14 @@
         float:right;
         padding:28px;
         margin-right:100px;
-      
-        
-      
     }
+
     #footer{
         display:flex;
         flex-direction: row;
         margin-top: 28px;
-        
-        
-    
-      
     }
+
     #footer-text{
         color:white;
         font-family: 'Telex', sans-serif;
@@ -109,22 +99,18 @@
         font-size: 32px;
         line-height: 25px;
         width:20%;
-  
-
     }
   
     #social-icon-container{
         display: flex;
-        margin-top: -6px;
-      
-   
-       
+        margin-top: -6px; 
     }
+
     .icon-image{
         height:45px;
         width:auto;
-        
     }
+
     .icon-image:hover{
         -webkit-transform: scale(1.1);
         transform:scale(1.1);
@@ -210,32 +196,22 @@
         line-height: 2;
         margin-top:20px;
         color:white;
-      
-    
     }
 
- 
-   
-    
     #career-image{
         height: auto;
         max-width:50%;
-       
         padding:28px;
        margin-bottom: 48px;
-       margin-top: 48px;
-      
-        
+       margin-top: 48px; 
       
     }
+
     #footer{
         display:flex;
         flex-direction: row;
-        
-        
-    
-      
     }
+
     #footer-text{
         color:white;
         font-family: 'Telex', sans-serif;
@@ -244,22 +220,18 @@
         font-size: 32px;
         line-height: 25px;
         width:20%;
-  
-
     }
   
     #social-icon-container{
         display: flex;
         margin-top: -6px;
-      
-   
-       
     }
+
     .icon-image{
         height:45px;
         width:auto;
-        
     }
+
     .icon-image:hover{
         -webkit-transform: scale(1.1);
         transform:scale(1.1);
@@ -278,9 +250,7 @@
     #navbar{
         display:flex;
         flex-direction: row; 
-       
         justify-content:flex-start;
-    
         margin-top:22px;
    
        
@@ -291,8 +261,9 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         font-weight: bold;
-        margin-right:28px;
+        margin-right:20px;
     }
+
     a{
         text-decoration: none;
         color:white;
@@ -310,10 +281,12 @@
         bottom:-10px;
         transition: 0.3s;
     }
+
     .nav-link a:hover{
         width:100%;
 
     }
+
     .nav-link  a:hover:after{
         width:100%;
     }
@@ -345,17 +318,11 @@
         line-height: 2;
         margin-top:20px;
         color:white;
-      
-    
     }
 
- 
-   
-    
     #career-image{
         height: auto;
         max-width:80%;
-       
         padding:28px;
        margin-bottom: 48px;
        margin-top: 48px;

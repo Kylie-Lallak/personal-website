@@ -122,12 +122,8 @@
         font-weight: 800;
         font-size: 32px;
         line-height: 25px;
-
-
-    
         width:20%;
   
-
     }
   
     #social-icon-container{
@@ -176,7 +172,6 @@
         font-size: 28px;
         font-weight: bold;
         margin-right:48px;
-       
     }
 
     a{
@@ -226,8 +221,6 @@
 
    
     #main-image{
-    
-    
         height:auto;
         margin-left:28px;
         margin-top:12px;
@@ -253,7 +246,6 @@
         font-family: 'Montserrat', sans-serif;
         max-width: 450px;
         margin-left: 32px;
-    
     }
 
     #contact-me-button{
@@ -280,7 +272,6 @@
         display:flex;
         flex-direction: row;
         align-items: flex-end;
-  
         justify-content: flex-start;
         margin-top:115px;
       
@@ -292,12 +283,8 @@
         font-weight: 800;
         font-size: 32px;
         line-height: 25px;
-
-
-    
         width:20%;
   
-
     }
   
     #social-icon-container{
@@ -306,7 +293,6 @@
         justify-content: flex-start;
         margin-bottom:-10px;
    
-       
     }
     .icon-image{
         height:45px;
@@ -327,11 +313,8 @@
     #navbar{
         display:flex;
         flex-direction: row; 
-       
         justify-content:flex-start;
-    
         margin-top:22px;
-     
        
     }
     /* nav bar items*/
@@ -340,7 +323,7 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         font-weight: bold;
-        margin-right:28px;
+        margin-right:20px;
     }
     a{
         text-decoration: none;
@@ -369,21 +352,15 @@
     #main-page{
         display: flex;
         flex-direction:column;
-        
-    
     }
 
       /* turns all text in main body white*/
       #main-page > div {
-       
         color:white;
-    
     }
 
    
     #main-image{
-    
-    
         height:auto;
         margin-left:28px;
         margin-top:12px;
