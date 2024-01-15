@@ -1,7 +1,8 @@
 
 
 /* Normal desktop screen size */
-@media (min-width: 931px){
+@media (min-width: 961px){
+   
     body{
         background-color: black;
     }
@@ -47,6 +48,7 @@
     .nav-link  a:hover:after{
         width:100%;
     }
+    /* END OF NAV BAR ANIMATION*/
      
     /* Container for main text and image*/
     #main-page{
@@ -54,63 +56,49 @@
     }
     
     /*turns all main text white*/
-    #main-page > div {
-       
-        color:white;
+   
     
-    }
-    
-    #main-name{
-        font-size: 100px;
+    #main-title{
+        font-size: 80px;
         font-weight: 600;
         margin-left:28px;
         margin-top:115px;
         font-family: 'Telex', sans-serif;
         width:100%;
+        color:white;
     }
     
     #main-desc{
         font-family: 'Montserrat', sans-serif;
-       /* max-width: 450px;*/
-       max-width:60%;
+        max-width:450px;
         margin-left: 32px;
+        line-height: 2;
+        margin-top:20px;
+        color:white;
+      
     
     }
-    #contact-me-button{
-        font-family: 'Montserrat', sans-serif ;
-        margin-top: 32px;
-        text-align: center;
-        color:white;
-        width:200px;
-        padding:14px 20px 14px 20px;
-        background-color: black;
-        border:3px solid;
-        border-color: #e5e900;
-        font-weight: bold;
-        
-    }
-    #contact-me-button:hover{
-        
-        -webkit-transform: scale(1.1);
-        transform:scale(1.1);
 
-    }
+ 
    
     
-    #main-image{
-        width: 100%;
-        height:auto;
+    #career-image{
+        height: auto;
+        max-width:50%;
         float:right;
-        margin-right:28px;
+        padding:28px;
+        margin-right:100px;
+      
+        
       
     }
     #footer{
         display:flex;
         flex-direction: row;
-        align-items: flex-end;
-  
-        justify-content: flex-start;
-        margin-top:115px;
+        margin-top: 28px;
+        
+        
+    
       
     }
     #footer-text{
@@ -120,9 +108,6 @@
         font-weight: 800;
         font-size: 32px;
         line-height: 25px;
-
-
-    
         width:20%;
   
 
@@ -130,9 +115,8 @@
   
     #social-icon-container{
         display: flex;
-        align-items: flex-end;
-        justify-content: flex-start;
-        margin-bottom:-10px;
+        margin-top: -6px;
+      
    
        
     }
@@ -151,17 +135,16 @@
 }
 
 /* smaller desktop size*/
-@media  (max-width: 930px) and (min-width:727px){
+@media sreen and (max-width: 960px) and (min-width:727px){
 
     body{
         background-color: black;
     }
-    
-    
     /*navbar container*/
     #navbar{
         display:flex;
         flex-direction: row; 
+        flex-wrap: wrap;
         justify-content:flex-start;
         margin-left: 28px;
         margin-top:22px;
@@ -174,14 +157,7 @@
         font-size: 28px;
         font-weight: bold;
         margin-right:48px;
-       
     }
-
-    a{
-        text-decoration: none;
-        color:white;
-    }
-
     a{
         text-decoration: none;
         color:white;
@@ -206,81 +182,58 @@
     .nav-link  a:hover:after{
         width:100%;
     }
-
-     /* main text and main image container*/
-     #main-page{
+    /* END OF NAV BAR ANIMATION*/
+     
+    /* Container for main text and image*/
+    #main-page{
         display: flex;
-        flex-direction:column;
-        
-    
+        flex-direction: column;
     }
-
-      /* turns all text in main body white*/
-      #main-page > div {
-       
-        color:white;
     
-    }
-
+    /*turns all main text white*/
    
-    #main-image{
     
-    
-        height:auto;
-        margin-left:28px;
-        margin-top:12px;
-        max-width: 70%;
-       
-    }
-
-    /* container for main name and main description*/
-    #main-text{
-        margin-left:28px;
-        color:white;
-    }
-
-    #main-name{
-        font-size: 100px;
+    #main-title{
+        font-size: 80px;
         font-weight: 600;
         margin-left:28px;
         margin-top:115px;
         font-family: 'Telex', sans-serif;
+        width:100%;
+        color:white;
     }
     
     #main-desc{
         font-family: 'Montserrat', sans-serif;
-        max-width: 450px;
+        max-width:450px;
         margin-left: 32px;
+        line-height: 2;
+        margin-top:20px;
+        color:white;
+      
     
     }
 
-    #contact-me-button{
-        font-family: 'Montserrat', sans-serif ;
-        margin-top: 32px;
-        text-align: center;
-        color:white;
-        width:200px;
-        padding:14px 20px 14px 20px;
-        background-color: black;
-        border:3px solid;
-        border-color: #e5e900;
-        font-weight: bold;
-        margin-bottom:18px;
+ 
+   
+    
+    #career-image{
+        height: auto;
+        max-width:50%;
+       
+        padding:28px;
+       margin-bottom: 48px;
+       margin-top: 48px;
+      
         
-    }
-    #contact-me-button:hover{
-        
-        -webkit-transform: scale(1.1);
-        transform:scale(1.1);
-
+      
     }
     #footer{
         display:flex;
         flex-direction: row;
-        align-items: flex-end;
-  
-        justify-content: flex-start;
-        margin-top:115px;
+        
+        
+    
       
     }
     #footer-text{
@@ -290,9 +243,6 @@
         font-weight: 800;
         font-size: 32px;
         line-height: 25px;
-
-
-    
         width:20%;
   
 
@@ -300,9 +250,8 @@
   
     #social-icon-container{
         display: flex;
-        align-items: flex-end;
-        justify-content: flex-start;
-        margin-bottom:-10px;
+        margin-top: -6px;
+      
    
        
     }
@@ -315,12 +264,17 @@
         -webkit-transform: scale(1.1);
         transform:scale(1.1);
     }
+    
+
+
 }
 
+/*mobile screens*/
 @media (max-width:726px){
     body{
         background-color: black;
     }
+    /*navbar container*/
     #navbar{
         display:flex;
         flex-direction: row; 
@@ -363,104 +317,76 @@
     .nav-link  a:hover:after{
         width:100%;
     }
+    /* END OF NAV BAR ANIMATION*/
+     
+    /* Container for main text and image*/
     #main-page{
         display: flex;
-        flex-direction:column;
-        
-    
+        flex-direction: column;
     }
-
-      /* turns all text in main body white*/
-      #main-page > div {
-       
-        color:white;
     
-    }
-
+    /*turns all main text white*/
    
-    #main-image{
     
-    
-        height:auto;
-        margin-left:28px;
-        margin-top:12px;
-        max-width: 70%;
-       
-    }
-
-    /* container for main name and main description*/
-    #main-text{
-        margin-left:28px;
-        color:white;
-    }
-
-    #main-name{
-        font-size: 100px;
+    #main-title{
+        font-size: 80px;
         font-weight: 600;
         margin-left:28px;
         margin-top:115px;
         font-family: 'Telex', sans-serif;
+        width:100%;
+        color:white;
     }
     
     #main-desc{
         font-family: 'Montserrat', sans-serif;
-        max-width: 450px;
+        max-width:450px;
         margin-left: 32px;
+        line-height: 2;
+        margin-top:20px;
+        color:white;
+      
     
     }
 
-    #contact-me-button{
-        font-family: 'Montserrat', sans-serif ;
-        margin-top: 32px;
-        text-align: center;
-        color:white;
-        width:200px;
-        padding:14px 20px 14px 20px;
-        background-color: black;
-        border:3px solid;
-        border-color: #e5e900;
-        font-weight: bold;
-        margin-bottom:18px;
-        
+ 
+   
+    
+    #career-image{
+        height: auto;
+        max-width:80%;
+       
+        padding:28px;
+       margin-bottom: 48px;
+       margin-top: 48px;
     }
-    #contact-me-button:hover{
-        
-        -webkit-transform: scale(1.1);
-        transform:scale(1.1);
 
-    }
     #footer{
         display:flex;
         flex-direction: column;
-        float:left;
-        margin-left:22px;
     }
-    
+
     #footer-text{
         color:white;
         font-family: 'Telex', sans-serif;
+        margin-left:28px;
         font-weight: 800;
         font-size: 32px;
         line-height: 25px;
-        float:left;
-        margin-bottom:12px;
         width:20%;
-  
-
     }
   
     #social-icon-container{
         display: flex;
-   
-        margin-bottom:-10px;
-        float:left;
-   
-       
+        margin-top: -6px;
+  
     }
+
     .icon-image{
         height:45px;
         width:auto;
-        
+        margin-left: 22px;
+        margin-top: 22px;
     }
     .icon-image:hover{
         -webkit-transform: scale(1.1);
@@ -468,3 +394,5 @@
     }
 
 }
+
+
