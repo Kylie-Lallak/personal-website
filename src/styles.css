@@ -371,11 +371,11 @@
     /* container for main name and main description*/
     #main-text{
         margin-left:28px;
-        color:white;
+        font-size: 20px;
     }
 
     #main-name{
-        font-size: 100px;
+        font-size: 50px;
         font-weight: 600;
         margin-left:28px;
         margin-top:115px;
